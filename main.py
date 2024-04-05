@@ -12,7 +12,7 @@ def clear_output():
 
 def format_data(account):
     """takes the account data and returns printable format"""
-    account_name = account["name"]x
+    account_name = account["name"]
     account_descriptioon = account["description"]
     account_country = account["country"]
     return (f"{account_name}, a {account_descriptioon}, from {account_country}.")
